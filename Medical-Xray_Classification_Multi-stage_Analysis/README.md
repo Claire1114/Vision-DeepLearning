@@ -3,7 +3,7 @@
 ## Overview
 本專案針對醫療 X 光影像開發自動化分類系統，透過 ResNet50 與 ConvNeXt-Tiny 模型進行多階段分析，並透過 Grad-CAM 提供臨床診斷的可解釋性依據。
 
-> **資料來源說明**：kaggle UNIFESP X-ray身體部位分類資料集 (https://www.kaggle.com/datasets/felipekitamura/unifesp-xray-bodypart-classification/data<img width="432" height="40" alt="image" src="https://github.com/user-attachments/assets/f91c3e42-0165-4386-8584-18e9f01193ce" />
+> **資料來源說明**：kaggle UNIFESP X-ray身體部位分類資料集 [(https://www.kaggle.com/datasets/felipekitamura/unifesp-xray-bodypart-classification/data<img width="432" height="40" alt="image" src="https://github.com/user-attachments/assets/f91c3e42-0165-4386-8584-18e9f01193ce" />](https://www.kaggle.com/datasets/felipekitamura/unifesp-xray-bodypart-classification/data)）
 )
 
 ---
