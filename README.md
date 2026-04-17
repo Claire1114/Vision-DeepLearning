@@ -19,3 +19,17 @@
 - 可解釋性 AI：利用 Grad-CAM 技術進行視覺化分析，證實模型決策精確鎖定核心解剖構造（如肺野、腸道），符合臨床解剖邏輯。
 
 ➡️ 詳細方法、實驗設定與結果請見該資料夾內 README / 報告。
+
+---
+
+## Project 2 — Automated Rib Segmentation in Chest X-rays
+📁 Folder: Rib-Segmentation_UNet_ResNet50_Analysis/
+
+**重點內容**
+- 架構與微調：採用 U-Net + ResNet50，透過解凍部分層級進行半微調，讓預訓練模型精確適應醫療影像的灰階特徵。
+
+- 小樣本強健度：在有限資料（n=196）下透過多重資料擴增與 Dynamic Padding，達成 IoU 0.8968，驗證了模型在小樣本下的泛化潛力。
+
+- 錯誤分析：建立 FP/FN 顏色編碼疊圖分析，精確鎖定低對比區的識別瓶頸，釐清模型判別問題。
+
+➡️ 詳細方法、實驗設定與結果請見該資料夾內 README / 報告。
